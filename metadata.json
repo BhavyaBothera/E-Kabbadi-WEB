@@ -1,0 +1,6 @@
+{
+  "name": "E-KABAADI",
+  "description": "Smart AI-powered scrap collection and waste management platform connecting citizens, collectors, and recyclers.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- PWA & Mobile Viewport Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#10b981" />
+    
+    <title>E-Kabbadi | AI-Powered Scrap & Waste Management</title>
+    <meta name="description" content="A smart, AI-powered scrap collection platform connecting citizens, collectors, and recyclers. Turn waste into wealth with real-time AI scrap valuation and live tracking." />
+    <meta name="keywords" content="waste management, scrap collection, EPR compliance, AI recycling, clean tech, hackathon" />
+    
+    <!-- Open Graph / Social Sharing Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="E-Kabbadi | Collect. Connect. Recycle." />
+    <meta property="og:description" content="Turn waste into wealth with real-time AI scrap valuation and live tracking." />
+    <!-- TODO: Replace with your actual deployed Vercel/Netlify URL and a screenshot of your app -->
+    <meta property="og:url" content="https://e-kabbadi.vercel.app/" />
+    <meta property="og:image" content="https://e-kabbadi.vercel.app/og-image.jpg" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="E-Kabbadi | Collect. Connect. Recycle." />
+    <meta name="twitter:description" content="Smart AI-powered scrap collection and waste management platform." />
+    
+    <!-- PWA Icons & Manifest (Crucial for offline mode) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Font Preloading (Prevents text flicker on initial load) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
+  
+  <body class="bg-zinc-50 text-zinc-900 antialiased font-sans selection:bg-emerald-100 selection:text-emerald-900">
+    <!-- Graceful Fallback if JS fails or is disabled -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: system-ui, sans-serif; background: #fff1f2; color: #be123c; border-bottom: 1px solid #fda4af;">
+        <strong>JavaScript is required.</strong> E-Kabbadi relies on JavaScript to run its AI vision and live map tracking engines. Please enable it to continue.
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
